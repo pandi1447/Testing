@@ -42,7 +42,7 @@ public class UseEmployee {
 		List<Integer>femaleSalary=employees.stream().filter(x->x.getGender().equalsIgnoreCase("Female")).map(y->y.getSalary()).collect(Collectors.toList());
 		System.out.println(femaleSalary);
 		
-		List<String>ab=Arrays.asList("Muthu","Pandi","aravind");
+		List<String>ab=Arrays.asList("Lakshmi","pathi","Muthu");
 		boolean a=ab.stream().anyMatch(null);
 		System.out.println(a);
 		
